@@ -24,19 +24,7 @@ dotnet run
 ## Running the tests
 
 ```
-No unity tests, sorry!
-```
-
-### Break down into end to end tests
-
-```
-No unity tests, sorry!
-```
-
-### And coding style tests
-
-```
-No unity tests, sorry!
+ dotnet test .\Tests\
 ```
 
 ## Deployment
