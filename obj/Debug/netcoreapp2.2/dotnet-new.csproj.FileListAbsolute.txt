@@ -1,0 +1,14 @@
+D:\gitd\dotnet-new\bin\Debug\netcoreapp2.2\dotnet-new.deps.json
+D:\gitd\dotnet-new\bin\Debug\netcoreapp2.2\dotnet-new.runtimeconfig.json
+D:\gitd\dotnet-new\bin\Debug\netcoreapp2.2\dotnet-new.runtimeconfig.dev.json
+D:\gitd\dotnet-new\bin\Debug\netcoreapp2.2\dotnet-new.dll
+D:\gitd\dotnet-new\bin\Debug\netcoreapp2.2\dotnet-new.pdb
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.csprojAssemblyReference.cache
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.csproj.CoreCompileInputs.cache
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.RazorAssemblyInfo.cache
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.RazorAssemblyInfo.cs
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.AssemblyInfoInputs.cache
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.AssemblyInfo.cs
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.RazorTargetAssemblyInfo.cache
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.dll
+D:\gitd\dotnet-new\obj\Debug\netcoreapp2.2\dotnet-new.pdb
