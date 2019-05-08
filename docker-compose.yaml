@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  dotnetapi:
+    image: dotnetapi
+    build:
+      context: .
+    ports:
+      - "20000:80"
+    networks:
+      - marvel-network
+
+networks:
+    marvel-network:
+        driver: bridge
