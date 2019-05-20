@@ -13,8 +13,7 @@ namespace api_net.Entities
         {
             if (!optionsBuilder.IsConfigured)
             {
-//warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseNpgsql(@"Host=ec2-23-23-142-5.compute-1.amazonaws.com;Database=d6hqvk2bfl799q;Username=bbpweyznvnvksd;Password=11458c9d670566e8032d5ce4aec47037b2c5266a80e215d1df089cd21dcdb5a7");
+                optionsBuilder.UseNpgsql(@"Server=localhost;Database=myapi;Username=apiadmin;Password=apipass");
                 //optionsBuilder.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"));
             }
         }

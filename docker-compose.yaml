@@ -1,14 +1,31 @@
 version: '3'
 
 services:
+  postgresql:
+    container_name: dotnetdb
+    build: ./.docker/pg
+    ports:
+      - 5432
+    environment:
+      - POSTGRES_USER=apiadmin
+      - POSTGRES_PASSWORD=apipass
+      - POSTGRES_DB=myapi
+      - PG_TRUST_LOCALNET=true
+    networks:
+      - marvel-network
+
   dotnetapi:
     image: dotnetapi
     build:
       context: .
     ports:
-      - "20000:80"
+      - "5000:5000"
+      - "5001:5001"
+      - "3000:80"
     networks:
       - marvel-network
+    links:
+      - postgresql
 
 networks:
     marvel-network:

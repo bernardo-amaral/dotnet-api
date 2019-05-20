@@ -1,4 +1,4 @@
-FROM microsoft/dotnet AS build-env
+FROM microsoft/dotnet:latest
 
 ENV http_proxy="http://10.203.222.109:3128/"
 ENV https_proxy="http://10.203.222.109:3128/"
@@ -10,8 +10,9 @@ COPY *.csproj ./
 COPY *.Config ./
 RUN dotnet restore
 
-COPY . ./
-RUN dotnet publish -c Release -o out
-COPY --from=build-env /app/out .
+#RUN dotnet ef database update
 
-ENTRYPOINT ["dotnet", "dotnet-new.dll"]
+COPY . ./
+RUN dotnet publish -c Release -o published
+
+ENTRYPOINT ["dotnet", "published/dotnet-new.dll"]
